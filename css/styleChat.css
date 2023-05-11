@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #282727;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (min-width: 994px){
+.col-user {
+  width: 40%;
+  height: 600px;
+  background-color: #333333;
+  border: 1px solid #242323;
+}
+}
+
+@media screen and (min-width: 994px){
+.col-chat {
+  width: 60%;
+  height: 600px;
+  background-color: #1c1c1c;
+  border: 1px solid #242323;
+}
+}
+
+.head-user{
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #242323;
+}
+
+.edit {
+  float: right;
+  margin-right: 20px;
+}
+
+.content-user {
+  padding: 24px;
+}
+
+.user-chat {
+  margin-top: 10px;
+}
+
+.img-wrapper-circle {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-chat-user {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.chat-time {
+  color: #9f9f9f;
+}
+
+.head-chat{
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #242323;
+}
+
+.img-wrapper-circle-chat {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.content-head-chat {
+  margin-left: 24px;
+}
+
+.text-header-chat {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 994px){
+.form-id {
+  margin-top: 475px;
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 500px;
+}
+
+.smile {
+  margin-left: 20px;
+}
+
+.photo {
+  margin-right: 20px;
+}
+}
